@@ -62,7 +62,7 @@ cd smart-grid-security
 pip install -r requirements.txt
 ```
 
-3. Download database:
+3. Database:
 ```
 Intrusion detection evaluation dataset (CIC-IDS2017) is too large to upload to GitHub
 Download at the end of this link: https://www.unb.ca/cic/datasets/ids-2017.html
