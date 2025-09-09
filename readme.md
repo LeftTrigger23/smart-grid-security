@@ -62,8 +62,7 @@ pip install -r requirements.txt
 
 3. Download database:
 ```
-Intrusion detection evaluation dataset (CIC-IDS2017) is too large to upload to GitHub
-Download at the end of this link: https://www.unb.ca/cic/datasets/ids-2017.html
+https://www.unb.ca/cic/datasets/ids-2017.html
 ```
 
 ### Training
