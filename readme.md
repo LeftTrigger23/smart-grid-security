@@ -62,7 +62,8 @@ pip install -r requirements.txt
 
 3. Download database:
 ```
-https://www.unb.ca/cic/datasets/ids-2017.html
+Intrusion detection evaluation dataset (CIC-IDS2017) is too large to upload to GitHub
+Download at the end of this link: https://www.unb.ca/cic/datasets/ids-2017.html
 ```
 
 ### Training
@@ -137,13 +138,22 @@ The expected input data should be a CSV file with the following structure:
 
 If no data is provided, the system will generate synthetic data for demonstration purposes.
 
-## Results
+## Test Results
 
-After training and evaluation, the results will be stored in the `results/` directory, including:
-- Training performance metrics
-- Latent space visualization
-- Reconstruction error distribution
-- Confusion matrix for attack classification
+Comprehensive evaluation results are available in our [Test Results Documentation](docs/test_results.md), including:
+
+- **Individual Component Performance**: AutoEncoder, GAN, CNN, and LSTM results
+- **Model Comparison**: Hybrid vs individual component analysis  
+- **Anomaly Detection**: ROC curves and detection performance
+- **Performance Metrics**: Accuracy, error rates, and computational efficiency
+- **Training Visualizations**: Loss curves and latent space analysis
+
+### Key Results Summary
+- **LSTM-only Model**: 98.36% accuracy, 0.998 AUC
+- **CNN-only Model**: 97.71% accuracy, 0.998 AUC  
+- **Hybrid Model**: 96.22% accuracy, 0.507 AUC (integration challenges identified)
+
+See the [full results documentation](docs/test_results.md) for detailed analysis and visualizations.
 
 ## Demo
 
