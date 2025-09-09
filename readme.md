@@ -28,6 +28,8 @@ smart-grid-security/
 ├── run_tests.sh            # Shell script to run all component tests
 ├── dataset/                # Dataset will go here
 │   ├── preprocess_dataset.py # Preprocess dataset first
+├── docs/
+│   ├── test_results.md     # Test results overview
 ├── model/                  # Model components
 │   ├── __init__.py
 │   ├── encoder.py          # Encoder module (CNN-LSTM)
