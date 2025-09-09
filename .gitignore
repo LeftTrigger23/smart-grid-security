@@ -95,3 +95,10 @@ site/
 *.joblib
 models/
 checkpoints/
+
+# Directories and Files
+dataset/binaryAllNaturalPlusNormalVsAttacks
+dataset/data
+dataset/MachineLearningCVE
+saved_models/
+test/
